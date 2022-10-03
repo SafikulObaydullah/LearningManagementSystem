@@ -1,0 +1,444 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
+}
+@*/*Display*/*@
+<h2>All HomeWork</h2>
+<div class="float-r">
+    <button style="font-size:20px;" title="Add Department" id="btnModal"
+            data-toggle="modal" data-target="#MyModal">
+        <i class="fa fa-plus"></i>
+    </button>
+</div>
+<table class="table table-bordered" id="tble">
+
+    <thead>
+        <tr>
+            <td>PublishedDate</td>
+            <td>DueDate</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>TeacherID</td>
+            <td>SubId</td>
+            <td>ClassId</td>
+            <td>SecID</td>
+            <td>ShiftId</td>
+            <td>Status</td>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+@*/*Save/update*/*@
+
+<!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="MyModal" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Enter Department Information</h5>
+                @*<button type="button" class="close" data-dismiss="modal"
+                              aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>*@
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label id="txtId" hidden></label>
+                    <label>PublishedDate</label>
+                    <input class="form-control" type="datetime" id="txtPublishedDate" />
+                </div>
+                <div class="form-group">
+                    <label>DueDate</label>
+                    <input class="form-control" type="datetime" id="txtDueDate" />
+                </div>
+                <div class="form-group">
+                    <label>Title</label>
+                    <input class="form-control" type="text" id="txtTitle" />
+                </div>
+                <div class="form-group">
+                    <label>Description </label>
+                    <input class="form-control" type="text" id="txtDescription" />
+                </div>
+                <div class="form-group">
+                    <label>TeacherID </label>
+                    <select class="form-control" id="txtTeacherID"></select>
+                </div>
+                <div class="form-group">
+                    <label>SubId </label>
+                    <select class="form-control" id="txtSubId"></select>
+                </div>
+                <div class="form-group">
+                    <label>ClassId </label>
+                    <select class="form-control" id="txtClassId"></select>
+                </div>
+                <div class="form-group">
+                    <label>SecID </label>
+                    <select class="form-control" id="txtSecID"></select>
+                </div>
+                <div class="form-group">
+                    <label>ShiftId </label>
+                    <select class="form-control" id="txtShiftId" ></select>
+                </div>
+                <div class="form-group">
+                    <label>Status </label>
+                    <input class="form-control" type="text" id="txtStatus" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="Close()" id="btnClose" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="btnSave">Save changes</button>
+                <button type="button" class="btn btn-primary" onclick="Update()" id="btnUpdate">Update changes</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            GetTeacher();
+            GetSubject();
+            GetClassName();
+            GetSection();
+            GetShift();
+            $("#btnUpdate").hide();
+            //$("#MyModal").modal('hide');
+            $("#btnSave").show();
+            var IsEdit = false;
+            $("#MyModal").modal({
+                backdrop: 'static',
+                keyboard: false,
+                /*show: true*/
+            });
+            load()
+            //$('#MyModal').modal({
+            //        backdrop: 'static',
+            //    keyboard: true,
+            //    show: false
+            //    });
+            $("#btnModal").click(function () {
+                $("#MyModal").modal('show')
+
+            })
+            $("#btnSave").click(function () {
+                var obj = {
+                    PublishedDate: $("#txtPublishedDate").val(),
+                    DueDate: $("#txtDueDate").val(),
+                    Title: $("#txtTitle").val(),
+                    Description: $("#txtDescription").val(),
+                    TeacherID: $("#txtTeacherID").val(),
+                    SubId: $("#txtSubId").val(),
+                    ClassId: $("#txtClassId").val(),
+                    SecID: $("#txtSecID").val(),
+                    ShiftId: $("#txtShiftId").val(),
+                    Status: $("#txtStatus").val()
+                }
+                console.log(obj)
+                $.ajax({
+                    url: "https://localhost:44372/api/HomeWorks/",
+                    type: "JSON",
+                    method: "POST",
+                    data: JSON.stringify(obj),
+                    contentType: "application/json",
+                    success: function (result) {
+                        console.log(result)
+
+                        $("#MyModal").modal('hide')
+                        clearALl(); load();
+                    },
+                    error: function (er) {
+                        console.log(er)
+                    }
+                })
+            })
+            //$("#btnUpdate").click(function () {
+
+            //}
+
+        })
+
+        function GetTeacher() {
+            var ddlCustomers = $("#txtTeacherID");
+            ddlCustomers.empty().append('<option selected="selected" value="0" disabled = "disabled">Loading.....</option>');
+            $.ajax({
+                type: "GET",
+                url: "https://localhost:44372/api/Employees",
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    console.log("====")
+                    console.log(response);
+                    ddlCustomers.empty().append('<option selected="selected" value="0">Please select Teacher </option>');
+                    $.each(response, function (i, v) {
+                        console.log(v);
+                        ddlCustomers.append($("<option></option>").val(v.Id).html(v.Name));
+                    });
+                },
+                failure: function (response) {
+                    alert(response.responseText);
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                }
+            });
+        }
+        function GetSubject() {
+            var ddlCustomers = $("#txtSubId");
+            ddlCustomers.empty().append('<option selected="selected" value="0" disabled = "disabled">Loading.....</option>');
+            $.ajax({
+                type: "GET",
+                url: "https://localhost:44372/api/Subjects",
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    console.log("====")
+                    console.log(response);
+                    ddlCustomers.empty().append('<option selected="selected" value="0">Please select InstituteType</option>');
+                    $.each(response, function (i, v) {
+                        console.log(v);
+                        ddlCustomers.append($("<option></option>").val(v.Id).html(v.SubName));
+                    });
+                },
+                failure: function (response) {
+                    alert(response.responseText);
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                }
+            });
+        }
+        function GetClassName() {
+            var ddlCustomers = $("#txtClassId");
+            ddlCustomers.empty().append('<option selected="selected" value="0" disabled = "disabled">Loading.....</option>');
+            $.ajax({
+                type: "GET",
+                url: "https://localhost:44372/api/ClassNames",
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    console.log("====")
+                    console.log(response);
+                    ddlCustomers.empty().append('<option selected="selected" value="0">Please select InstituteType</option>');
+                    $.each(response, function (i, v) {
+                        console.log(v);
+                        ddlCustomers.append($("<option></option>").val(v.Id).html(v.ClassesName));
+                    });
+                },
+                failure: function (response) {
+                    alert(response.responseText);
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                }
+            });
+        }
+        function GetSection() {
+            var ddlCustomers = $("#txtSecID");
+            ddlCustomers.empty().append('<option selected="selected" value="0" disabled = "disabled">Loading.....</option>');
+            $.ajax({
+                type: "GET",
+                url: "https://localhost:44372/api/Sections",
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    console.log("====")
+                    console.log(response);
+                    ddlCustomers.empty().append('<option selected="selected" value="0">Please select Section</option>');
+                    $.each(response, function (i, v) {
+                        console.log(v);
+                        ddlCustomers.append($("<option></option>").val(v.Id).html(v.SectionName));
+                    });
+                },
+                failure: function (response) {
+                    alert(response.responseText);
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                }
+            });
+        }
+        function GetShift() {
+            var ddlCustomers = $("#txtShiftId");
+            ddlCustomers.empty().append('<option selected="selected" value="0" disabled = "disabled">Loading.....</option>');
+            $.ajax({
+                type: "GET",
+                url: "https://localhost:44372/api/Shifts",
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    console.log("====")
+                    console.log(response);
+                    ddlCustomers.empty().append('<option selected="selected" value="0">Please select ShiftName</option>');
+                    $.each(response, function (i, v) {
+                        console.log(v);
+                        ddlCustomers.append($("<option></option>").val(v.Id).html(v.SiftName));
+                    });
+                },
+                failure: function (response) {
+                    alert(response.responseText);
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                }
+            });
+        }
+
+        function clearALl() {
+            $("#txtPublishedDate").val(''),
+                $("#txtDueDate").val(''),
+                $("#txtTitle").val(''),
+                $("#txtDescription").val(''),
+                $("#txtTeacherID").val(''),
+                $("#txtSubId").val(''),
+                $("#txtClassId").val(''),
+                $("#txtSecID").val(''),
+                $("#txtShiftId").val(''),
+                $("#txtStatus").val('')
+            $("#txtId").empty()
+        }
+        function Close() {
+            $("#MyModal").modal('hide');
+        }
+        function load() {
+            $.ajax({
+                url: "https://localhost:44372/api/HomeWorks/",
+                type: "JSON",
+                method: "GET",
+                success: function (result) {
+                    console.log(result)
+                    $("#tble tbody").empty();
+                    $.each(result, function (i, v) {
+                        console.log(v)
+                        var html = "<tr><td>" + v.PublishedDate + "</td>" +
+                            "<td>" + v.DueDate + "</td>" +
+                            " <td>" + v.Title + "</td>" +
+                            " <td>" + v.Description + "</td>" +
+                            " <td>" + v.TeacherID + "</td>" +
+                            " <td>" + v.SubId + "</td>" +
+                            " <td>" + v.ClassId + "</td>" +
+                            " <td>" + v.SecID + "</td>" +
+                            " <td>" + v.ShiftId + "</td>" +
+                            " <td>" + v.Status + "</td>" +
+                            " <td> <button onClick='Edit(" + v.Id + ")'>Edit </button></td>" +
+                            " <td> <button onClick='Delete(" + v.Id + ")'>Delete </button></td></tr>";
+
+                        $("#tble tbody").append(html)
+                    })
+                },
+                error: function (er) {
+                    console.log(er)
+                }
+            })
+        }
+
+        function Edit(id) {
+            /*alert(id)*/
+            $("#btnUpdate").show();
+            $("#btnSave").hide();
+
+            $.ajax({
+                url: "https://localhost:44372/api/HomeWorks/" + id,
+                type: "JSON",
+                method: "GET",
+                success: function (result) {
+                    $("#exampleModalLabel").html("Update Department Information");
+                    console.log(result)
+                    IsEdit = true;
+
+                    $("#txtPublishedDate").val(result.PublishedDate),
+                        $("#txtDueDate").val(result.DueDate),
+                        $("#txtTitle").val(result.Title),
+                        $("#txtDescription").val(result.Description),
+                        $("#txtTeacherID").val(result.TeacherID),
+                        $("#txtSubId").val(result.SubId),
+                        $("#txtClassId").val(result.ClassId),
+                        $("#txtSecID").val(result.SecID),
+                        $("#txtShiftId").val(result.ShiftId),
+                        $("#txtStatus").val(result.Status),
+                    $("#txtId").val(result.Id),
+                    $("#MyModal").modal('show')
+                },
+                error: function (er) {
+                    console.log(er)
+                }
+            })
+
+        }
+        function Update() {
+            alert($("#txtId").val());
+            var url = "https://localhost:44372/api/HomeWorks/" + $("#txtId").val();
+
+            var object = {
+                PublishedDate: $("#txtPublishedDate").val(),
+                DueDate: $("#txtDueDate").val(),
+                Title: $("#txtTitle").val(),
+                Description: $("#txtDescription").val(),
+                TeacherID: $("#txtTeacherID").val(),
+                SubId: $("#txtSubId").val(),
+                ClassId: $("#txtClassId").val(),
+                SecID: $("#txtSecID").val(),
+                ShiftId: $("#txtShiftId").val(),
+                Status: $("#txtStatus").val(),
+                Id: $("#txtId").val()
+            }
+            $.ajax({
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                type: "Put",
+
+                data: JSON.stringify(object),
+                success: function (result) {
+                    //getProductData();
+                    //clear();
+                    $("#MyModal").modal('hide');
+                    load();
+                    clearALl();
+                    console.log("....")
+                    console.log(result)
+                    //if (result > 0 ) {
+                    //    load();
+                    //    clearALl();
+
+                    //}
+                    $("#btnUpdate").hide();
+                    $("#btnSave").show();
+                },
+                error: function (er) {
+                    console.log(er.responseText);
+                }
+            })
+        }
+
+        function Delete(id) {
+            var url = "https://localhost:44372/api/HomeWorks/" + id;
+            $.ajax({
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                type: "Delete",
+                success: function (result) {
+                    clearALl();
+                    alert(result);
+                    load();
+                },
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+        }
+    </script>
+}
+
+
+

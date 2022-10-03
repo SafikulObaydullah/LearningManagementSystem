@@ -1,0 +1,107 @@
+﻿@model MVCClient.ViewModels.EmployeeVM
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>EmployeeVM</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DOB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DOB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JoiningDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JoiningDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PresentAdd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PresentAdd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PermanentAdd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PermanentAdd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DesId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DesId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DeptId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DeptId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TypeID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TypeID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

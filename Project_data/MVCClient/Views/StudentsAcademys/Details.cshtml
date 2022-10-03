@@ -1,0 +1,83 @@
+﻿@model MVCClient.ViewModels.StudentsAcademyVM
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>StudentsAcademyVM</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StdId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StdId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClassID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClassID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SectionID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SectionID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShiftID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShiftID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DeptID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DeptID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GrpProgramID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GrpProgramID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SemesterId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SemesterId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.STdYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.STdYear)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,77 @@
+﻿@model IEnumerable<MVCClient.ViewModels.StudentsAcademyVM>
+
+@{
+    ViewBag.Title = "Index";
+    //Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
+    Layout = "~/Views/Shared/_StudentLayout.cshtml";
+}
+
+@*<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.StdId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClassID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SectionID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShiftID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DeptID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GrpProgramID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SemesterId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.STdYear)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.StdId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClassID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SectionID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShiftID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeptID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GrpProgramID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SemesterId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STdYear)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>*@

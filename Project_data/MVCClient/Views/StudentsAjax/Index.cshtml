@@ -1,0 +1,314 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
+}
+
+@*/*Display*/*@
+<h2>All Student Information</h2>
+<div class="float-r">
+    <button style="font-size:20px;" title="Add Department" id="btnModal"
+            data-toggle="modal" data-target="#MyModal">
+        <i class="fa fa-plus"></i>
+    </button>
+</div>
+<table class="table table-bordered" id="tble">
+
+    <thead>
+        <tr>
+            <td>DOB</td>
+            <td>Name</td>
+            <td>ContactNo</td>
+            <td>Gender</td>
+            <td>Email</td>
+            <td>PresentAdd</td>
+            <td>PermanentAdd</td>
+            <td>ImagePath</td>
+            <td>Institute Name</td>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+@*/*Save/update*/*@
+
+<!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="MyModal" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static"
+     aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Enter Student Information</h5>
+                @*<button type="button" class="close" data-dismiss="modal"
+                              aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>*@
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label id="txtId" hidden></label>
+                    <label>DOB</label>
+                    <input class="form-control" type="text" id="txtDOB" />
+                </div>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input class="form-control" type="text" id="txtName" />
+                </div>
+                <div class="form-group">
+                    <label>ContactNo</label>
+                    <input class="form-control" type="text" id="txtContactNo" />
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <input class="form-control" type="text" id="txtGender" />
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input class="form-control" type="text" id="txtEmail" />
+                </div>
+                <div class="form-group">
+                    <label>PresentAdd</label>
+                    <input class="form-control" type="text" id="txtPresentAdd" />
+                </div>
+                <div class="form-group">
+                    <label>PermanentAdd</label>
+                    <input class="form-control" type="text" id="txtPermanentAdd" />
+                </div>
+                <div class="form-group">
+                    <label>ImagePath</label>
+                    <input class="form-control" type="text" id="txtImagePath" />
+                </div>
+                <div class="form-group">
+                    <label>InstId</label>
+                    <select class="form-control" id="txtInstId"></select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="Close()" id="btnClose" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="btnSave">Save changes</button>
+                <button type="button" class="btn btn-primary" onclick="Update()" id="btnUpdate">Update changes</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            GetInstitute();
+            $("#btnUpdate").hide();
+            //$("#MyModal").modal('hide');
+            $("#btnSave").show();
+            var IsEdit = false;
+            $("#MyModal").modal({
+                backdrop: 'static',
+                keyboard: false,
+                /*show: true*/
+            });
+            load()
+
+            $("#btnModal").click(function () {
+                $("#MyModal").modal('show')
+
+            })
+            $("#btnSave").click(function () {
+                var obj = {
+                    DOB: $("#txtDOB").val(),
+                    Name: $("#txtName").val(),
+                    ContactNo: $("#txtContactNo").val(),
+                    Gender: $("#txtGender").val(),
+                    Email: $("#txtEmail").val(),
+                    PresentAdd: $("#txtPresentAdd").val(),
+                    PermanentAdd: $("#txtPermanentAdd").val(),
+                    ImagePath: $("#txtImagePath").val(),
+                    InstId: $("#txtInstId").val()
+                }
+                console.log(obj)
+                $.ajax({
+                    url: "https://localhost:44372/api/Students/",
+                    type: "JSON",
+                    method: "POST",
+                    data: JSON.stringify(obj),
+                    contentType: "application/json",
+                    success: function (result) {
+                        console.log(result)
+
+                        $("#MyModal").modal('hide')
+                        clearALl(); load();
+                    },
+                    error: function (er) {
+                        console.log(er)
+                    }
+                })
+            })
+            //$("#btnUpdate").click(function () {
+
+            //}
+
+        })
+        function GetInstitute() {
+            var ddlCustomers = $("#txtInstId");
+            ddlCustomers.empty().append('<option selected="selected" value="0" disabled = "disabled">Loading.....</option>');
+            $.ajax({
+                type: "GET",
+                url: "https://localhost:44372/api/InstituteInfos",
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    console.log("====")
+                    console.log(response);
+                    ddlCustomers.empty().append('<option selected="selected" value="0">Please select Teacher </option>');
+                    $.each(response, function (i, v) {
+                        console.log(v);
+                        ddlCustomers.append($("<option></option>").val(v.Id).html(v.InstituteName));
+                    });
+                },
+                failure: function (response) {
+                    alert(response.responseText);
+                },
+                error: function (response) {
+                    alert(response.responseText);
+                }
+            });
+        }
+        function clearALl() {
+            $("#txtDOB").val(''),
+            $("#txtName").val(''),
+            $("#txtContactNo").val(''),
+            $("#txtGender").val(''),
+                $("#txtEmail").val(''),
+                $("#txtPresentAdd").val(''),
+                $("#txtPermanentAdd").val(''),
+                $("#txtImagePath").val(''),
+                $("#txtInstId").val(''),
+                 $("#txtId").empty()
+        }
+        function Close() {
+                $("#MyModal").modal('hide');
+        }
+        function load() {
+            $.ajax({
+                url: "https://localhost:44372/api/Students/",
+                type: "JSON",
+                method: "GET",
+                success: function (result) {
+                    console.log(result)
+                    $("#tble tbody").empty();
+                    $.each(result, function (i, v) {
+                        console.log(v)
+                        var html = "<tr><td>" + v.DOB + "</td>" +
+                            "<td>" + v.Name + "</td>" +
+                            "<td>" + v.ContactNo + "</td>" +
+                            "<td>" + v.Gender + "</td>" +
+                            "<td>" + v.Email + "</td>" +
+                            "<td>" + v.PresentAdd + "</td>" +
+                            "<td>" + v.PermanentAdd + "</td>" +
+                            "<td>" + v.ImagePath + "</td>" +
+                            "<td>" + v.InstId + "</td>" +
+                            " <td> <button onClick='Edit(" + v.Id + ")'>Edit </button></td>" +
+                            " <td> <button onClick='Delete(" + v.Id + ")'>Delete </button></td></tr>";
+
+                        $("#tble tbody").append(html)
+                    })
+                },
+                error: function (er) {
+                    console.log(er)
+                }
+            })
+        }
+
+        function Edit(id) {
+            /*alert(id)*/
+            $("#btnUpdate").show();
+            $("#btnSave").hide();
+
+            $.ajax({
+                url: "https://localhost:44372/api/Students/" + id,
+                type: "JSON",
+                method: "GET",
+                success: function (result) {
+                    $("#exampleModalLabel").html("Update Department Information");
+                    console.log(result)
+                     IsEdit = true;
+
+                    $("#txtDOB").val(result.DOB),
+                        $("#txtName").val(result.Name),
+                        $("#txtContactNo").val(result.ContactNo),
+                        $("#txtGender").val(result.Gender),
+                        $("#txtEmail").val(result.Email),
+                        $("#txtPresentAdd").val(result.PresentAdd),
+                        $("#txtPermanentAdd").val(result.PermanentAdd),
+                        $("#txtImagePath").val(result.ImagePath),
+                        $("#txtInstId").val(result.InstId),
+                        $("#txtId").val(result.Id),
+                        $("#MyModal").modal('show')
+                },
+                error: function (er) {
+                    console.log(er)
+                }
+            })
+
+        }
+        function Update() {
+            alert($("#txtId").val());
+            var url = "https://localhost:44372/api/Students/" + $("#txtId").val();
+
+            var object = {
+                DOB: $("#txtDOB").val(),
+                Name: $("#txtName").val(),
+                ContactNo: $("#txtContactNo").val(),
+                Gender: $("#txtGender").val(),
+                Email: $("#txtEmail").val(),
+                PresentAdd: $("#txtPresentAdd").val(),
+                PermanentAdd: $("#txtPermanentAdd").val(),
+                ImagePath: $("#txtImagePath").val(),
+                InstId: $("#txtInstId").val(),
+                Id: $("#txtId").val()
+            }
+            $.ajax({
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                type: "Put",
+
+                data: JSON.stringify(object),
+                success: function (result) {
+                    //getProductData();
+                    //clear();
+                    $("#MyModal").modal('hide');
+                    load();
+                    clearALl();
+                    console.log("....")
+                    console.log(result)
+                    $("#btnUpdate").hide();
+                    $("#btnSave").show();
+                },
+                error: function (er) {
+                    console.log(er.responseText);
+                }
+            })
+        }
+
+        function Delete(id) {
+            var url =  "https://localhost:44372/api/Students/" + id;
+            $.ajax({
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                type: "Delete",
+                success: function (result) {
+                    clearALl();
+                    alert(result);
+                    load();
+                },
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+        }
+    </script>
+}
+

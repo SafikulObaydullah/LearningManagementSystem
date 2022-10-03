@@ -1,0 +1,89 @@
+I:\MVC Course\Project\Project_data\Project_data\bin\Debug\Project_data.dll.config
+I:\MVC Course\Project\Project_data\Project_data\bin\Debug\Project_data.dll
+I:\MVC Course\Project\Project_data\Project_data\bin\Debug\Project_data.pdb
+I:\MVC Course\Project\Project_data\Project_data\bin\Debug\EntityFramework.dll
+I:\MVC Course\Project\Project_data\Project_data\bin\Debug\EntityFramework.SqlServer.dll
+I:\MVC Course\Project\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+I:\MVC Course\Project\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\MVC Course\Project\Project_data\Project_data\bin\Debug\EntityFramework.xml
+I:\MVC Course\Project\Project_data\Project_data\bin\Debug\EntityFramework.SqlServer.xml
+I:\MVC Course\Project\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+I:\MVC Course\Project\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\MVC Course\Project\Project_data\Project_data\obj\Debug\Project_data.csproj.AssemblyReference.cache
+I:\MVC Course\Project\Project_data\Project_data\obj\Debug\Project_data.Migrations.allTable.resources
+I:\MVC Course\Project\Project_data\Project_data\obj\Debug\Project_data.Migrations.sessn.resources
+I:\MVC Course\Project\Project_data\Project_data\obj\Debug\Project_data.Migrations.Typeid.resources
+I:\MVC Course\Project\Project_data\Project_data\obj\Debug\Project_data.Migrations.InsDes.resources
+I:\MVC Course\Project\Project_data\Project_data\obj\Debug\Project_data.csproj.GenerateResource.cache
+I:\MVC Course\Project\Project_data\Project_data\obj\Debug\Project_data.csproj.CoreCompileInputs.cache
+I:\MVC Course\Project\Project_data\Project_data\obj\Debug\Project_data.csproj.CopyComplete
+I:\MVC Course\Project\Project_data\Project_data\obj\Debug\Project_data.dll
+I:\MVC Course\Project\Project_data\Project_data\obj\Debug\Project_data.pdb
+D:\Project_data\Project_data\bin\Debug\Project_data.dll.config
+D:\Project_data\Project_data\bin\Debug\Project_data.dll
+D:\Project_data\Project_data\bin\Debug\Project_data.pdb
+D:\Project_data\Project_data\bin\Debug\EntityFramework.dll
+D:\Project_data\Project_data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project_data\Project_data\bin\Debug\EntityFramework.xml
+D:\Project_data\Project_data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project_data\Project_data\obj\Debug\Project_data.csproj.AssemblyReference.cache
+D:\Project_data\Project_data\obj\Debug\Project_data.Migrations.allTable.resources
+D:\Project_data\Project_data\obj\Debug\Project_data.Migrations.sessn.resources
+D:\Project_data\Project_data\obj\Debug\Project_data.Migrations.Typeid.resources
+D:\Project_data\Project_data\obj\Debug\Project_data.Migrations.InsDes.resources
+D:\Project_data\Project_data\obj\Debug\Project_data.csproj.GenerateResource.cache
+D:\Project_data\Project_data\obj\Debug\Project_data.csproj.CoreCompileInputs.cache
+D:\Project_data\Project_data\obj\Debug\Project_data.csproj.CopyComplete
+D:\Project_data\Project_data\obj\Debug\Project_data.dll
+D:\Project_data\Project_data\obj\Debug\Project_data.pdb
+D:\Project_data\Project_data\obj\Debug\Project_data.Migrations.subhom.resources
+D:\LMSproject\Project_data\Project_data\bin\Debug\Project_data.dll.config
+D:\LMSproject\Project_data\Project_data\bin\Debug\Project_data.dll
+D:\LMSproject\Project_data\Project_data\bin\Debug\Project_data.pdb
+D:\LMSproject\Project_data\Project_data\bin\Debug\EntityFramework.dll
+D:\LMSproject\Project_data\Project_data\bin\Debug\EntityFramework.SqlServer.dll
+D:\LMSproject\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\LMSproject\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\LMSproject\Project_data\Project_data\bin\Debug\EntityFramework.xml
+D:\LMSproject\Project_data\Project_data\bin\Debug\EntityFramework.SqlServer.xml
+D:\LMSproject\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\LMSproject\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.Migrations.allTable.resources
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.Migrations.sessn.resources
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.Migrations.Typeid.resources
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.Migrations.InsDes.resources
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.Migrations.subhom.resources
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.csproj.GenerateResource.cache
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.csproj.CoreCompileInputs.cache
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.csproj.CopyComplete
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.dll
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.pdb
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.csproj.AssemblyReference.cache
+D:\LMSproject\Project_data\Project_data\obj\Debug\Project_data.Migrations.imagepath.resources
+D:\PPT &Thesis\Project_data\Project_data\bin\Debug\Project_data.dll.config
+D:\PPT &Thesis\Project_data\Project_data\bin\Debug\Project_data.dll
+D:\PPT &Thesis\Project_data\Project_data\bin\Debug\Project_data.pdb
+D:\PPT &Thesis\Project_data\Project_data\bin\Debug\EntityFramework.dll
+D:\PPT &Thesis\Project_data\Project_data\bin\Debug\EntityFramework.SqlServer.dll
+D:\PPT &Thesis\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\PPT &Thesis\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PPT &Thesis\Project_data\Project_data\bin\Debug\EntityFramework.xml
+D:\PPT &Thesis\Project_data\Project_data\bin\Debug\EntityFramework.SqlServer.xml
+D:\PPT &Thesis\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\PPT &Thesis\Project_data\Project_data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.Migrations.allTable.resources
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.Migrations.sessn.resources
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.Migrations.Typeid.resources
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.Migrations.InsDes.resources
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.Migrations.subhom.resources
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.Migrations.imagepath.resources
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.csproj.GenerateResource.cache
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.csproj.CoreCompileInputs.cache
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.csproj.CopyComplete
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.dll
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.pdb
+D:\PPT &Thesis\Project_data\Project_data\obj\Debug\Project_data.csproj.AssemblyReference.cache

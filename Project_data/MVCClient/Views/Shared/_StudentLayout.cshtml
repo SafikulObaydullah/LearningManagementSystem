@@ -1,0 +1,396 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>@ViewBag.Title - PowerSoftTune</title>
+   @Styles.Render("~/Content/css")
+
+   @Scripts.Render("~/bundles/modernizr")
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   @*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" as="style">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" as="style">
+
+      <link href="~/Content/OwlCarousel/owl.theme.css" rel="stylesheet" />*@
+
+   @* Swipper *@
+   <!-- Link Swiper's CSS -->
+   @*https://swiperjs.com/demos#infinite-loop*@
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <!-- Demo styles -->
+   <style>
+      html,
+      body {
+         position: relative;
+         height: 100%;
+      }
+
+      .swiper-button-next:after, .swiper-button-prev:after {
+         font-family: swiper-icons;
+         /*font-size: var(--swiper-navigation-size);*/
+         font-size: 22px;
+         font-weight: bolder;
+         text-transform: none !important;
+         letter-spacing: 0;
+         text-transform: none;
+         font-variant: initial;
+         line-height: 1;
+      }
+
+      .swiper-horizontal > .swiper-pagination-bullets,
+      .swiper-pagination-bullets.swiper-pagination-horizontal,
+      .swiper-pagination-custom, .swiper-pagination-fraction {
+         /*  bottom: 10px;*/
+         bottom: 1px;
+         left: 0;
+         width: 100%;
+      }
+
+      .swiper-pagination {
+         position: absolute;
+         text-align: center;
+         transition: .3s opacity;
+         transform: translate3d(0,0,0);
+         z-index: 10;
+      }
+      /*   body {
+                    background: #eee;
+                    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                    font-size: 14px;
+                    color: #000;
+                    margin: 0;
+                    padding: 0;
+                }
+        */
+      .swiper {
+         width: 100%;
+         height: 100%;
+         /* width: 50%;
+                    height: 50%;*/
+         margin-top: 10px;
+      }
+
+      .swiper-slide {
+         margin: 0 0px;
+         min-height: 100px;
+         max-height: 120px;
+         max-width: 130px;
+         padding: 0;
+         text-align: center;
+         font-size: 18px;
+         background: #9af599;
+         /* width: 20px;
+                    height: 40px;
+                    padding: 10px;*/
+         /* Center slide text vertically */
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: -webkit-flex;
+         display: flex;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         -webkit-justify-content: center;
+         justify-content: center;
+         -webkit-box-align: center;
+         -ms-flex-align: center;
+         -webkit-align-items: center;
+         align-items: center;
+         cursor: pointer;
+      }
+
+         .swiper-slide:hover {
+            background-color: #35b256;
+            color: #fff;
+         }
+
+            .swiper-slide:hover span {
+               text-decoration: none;
+               color: #fff;
+            }
+
+         .swiper-slide img {
+            display: block;
+            width: 80%;
+            height: 60%;
+            object-fit: cover;
+         }
+
+         .swiper-slide span {
+            font-size: 12px;
+         }
+
+      .navbar-default {
+         background-color: #00ff90 !important;
+      }
+
+      .profileDiv {
+         background-color: #9af599;
+         border: 0 solid #aaaaaa;
+         float: right;
+         /* width: 31%;*/
+         margin-top: 10px;
+         min-height: 100px;
+         max-height: 120px;
+         max-width: 150px;
+         align-content: center;
+      }
+
+         .profileDiv img {
+            max-height: 80px;
+            margin: 10px;
+         }
+
+         .profileDiv .dropdown-menu {
+            clear: both;
+            min-width: 130px !important;
+            max-width: 170px !important;
+            padding: 5px;
+            /*border-radius:15px;*/
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+         }
+
+      .dropdown-item {
+         display: inline-block;
+      }
+
+      .leftDiv {
+         /*background-color: #ff6a00;
+                   */
+         margin-left: 30px;
+         height: 150px;
+      }
+
+      .nav-section {
+         display: flex;
+         align-items: flex-end;
+         justify-content: right;
+      }
+   </style>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+           <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+
+              </button>
+              <a href="#"><img src="~/MyPicture/homelogo.png" style="width:50px;height:50px;align-items:center;" /></a>
+              @*@Html.ActionLink("SchoolManagement", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+           </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    @*<li>@Html.ActionLink("About", "About", "Home")</li>*@
+                    @*<li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
+
+                </ul>
+                <div class="nav-section">
+                    
+                    <div class="dropdown show ">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="menubar"
+                           id="dropdownMenuLink" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            <img class="rounded-circle header-profile-user" src="~/assets/images/MenuImages/Examiner.png" style="width:80px;height:50px;" />
+            
+                    </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="Account/UserProfile">Profile</a>
+              <a class="dropdown-item" href="">Change Picture</a>
+              <a class="dropdown-item" href="#">Change Password</a>
+              <div class="dropdown-divider"></div>
+                      @*<a class="dropdown-item" href="#">Sign Out</a>*@
+                      @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                      {
+                          @Html.AntiForgeryToken()
+                          <a href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+                      }
+
+
+                  </div>
+              </div>
+              </div>
+         </div>
+   </div>
+        <!--<div class="col-md-2 profileDiv" style="width:80px;height:50px;" >
+
+              <div class="dropdown show ">
+                  <a class="btn btn-secondary dropdown-toggle" href="#" role="menubar"
+                   id="dropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                      <img src="~/assets/images/MenuImages/Examiner.png" />
+                            @*<img src="~/assets/images/Examiner.png" />
+            <img src="~/Images/Examiner.png" />*@
+                            <!--<span>Sajedur Rahman</span>
+                  </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Profile</a>
+            <a class="dropdown-item" href="#">Change Picture</a>
+            <a class="dropdown-item" href="#">Change Password</a>
+            <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Sign Out</a>
+                    @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <a href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+                    }
+
+
+                </div>
+            </div>
+        </div>-->
+
+                    </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10 leftDiv">
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="/Homeworks/Homework">
+                            <img src="~/assets/images/MenuImages/homework.png" />
+                            <span>Homework</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/Calendars/Calendars">
+                            <img src="~/assets/images/MenuImages/Calendar.jpg" />
+
+                            <span>Calendar</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/LessonPlan/LessonPlan">
+                            <img src="~/assets/images/MenuImages/lesson_paln.png" />
+                            <span>Lesson plan</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/ReportCard/ReportCard">
+
+                            <img src="~/assets/images/MenuImages/report_card.png" />
+                            <span>Report card</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/Competition/Competition">
+
+                            <img src="~/assets/images/MenuImages/competition.png" />
+                            <span>Competetion</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/ExamResultSheet/ExamResultSheet">
+
+                            <img src="~/assets/images/MenuImages/ExamResult.jpg" />
+                            <span>Exam Result</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/RankList/RankList">
+
+                            <img src="~/assets/images/MenuImages/RankList.png" />
+                            <span>Rank List</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/ClassRoutine/ClassRoutine">
+
+                            <img src="~/assets/images/MenuImages/Class Routine.png" />
+                            <span>Class Routine</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="/Holidays/Holidays">
+
+                            <img src="~/assets/images/MenuImages/Holiday.jpg" />
+                            <span>Holiday's</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Swiper JS -->
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 6,
+                    spaceBetween: 30,
+                    slidesPerGroup: 3,
+                    slidesPerGroupSkip: 1,
+                    loop: true,
+                    loopFillGroupWithBlank: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            </script>
+        </div>
+        <!--<div class="col-md-2 profileDiv">
+
+            <div class="dropdown show ">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="menubar"
+                   id="dropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    <img src="~/assets/images/MenuImages/Examiner.png" />-->
+                    @*<img src="~/assets/images/Examiner.png" />*@
+                    @*<img src="~/Images/Examiner.png" />*@
+                    <!--<span>Sajedur Rahman</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="#">Change Picture</a>
+                    <a class="dropdown-item" href="#">Change Password</a>
+                    <div class="dropdown-divider"></div>-->
+                    @*<a class="dropdown-item" href="#">Sign Out</a>*@
+                    <!--@using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <a href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+                    }
+
+
+                </div>
+            </div>
+        </div>-->
+    </div>
+    <div class="container body-content" style="height:1000px">
+        @RenderBody()
+
+    </div>
+    <div>
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</body>
+</html>

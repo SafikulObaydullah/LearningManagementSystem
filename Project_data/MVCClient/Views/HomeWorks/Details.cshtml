@@ -1,0 +1,147 @@
+﻿@model MVCClient.ViewModels.HomeworkVM
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+
+
+<div>
+    <h4>Homework Details Information</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PublishedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PublishedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DueDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DueDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeacherID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeacherID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Teacher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Teacher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SubId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SubId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SubjectName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SubjectName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClassId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClassId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClassNames)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClassNames)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SecID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SecID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SectionName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SectionName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShiftId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShiftId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShiftName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShiftName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsSubmitted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsSubmitted)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

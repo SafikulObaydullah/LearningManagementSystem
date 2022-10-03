@@ -1,0 +1,621 @@
+I:\MVC Course\Project\Project_data\MVCClient\bin\MVCClient.dll.config
+I:\MVC Course\Project\Project_data\MVCClient\bin\MVCClient.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\MVCClient.pdb
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\csc.exe
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\csc.exe.config
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\csc.rsp
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\csi.exe
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\csi.exe.config
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\csi.rsp
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.Managed.Core.targets
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\Microsoft.Win32.Primitives.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.AppContext.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Collections.Immutable.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Console.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Globalization.Calendars.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.IO.Compression.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.IO.Compression.ZipFile.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Net.Http.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Net.Sockets.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Reflection.Metadata.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Threading.Tasks.Extensions.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.ValueTuple.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Xml.ReaderWriter.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Xml.XmlDocument.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\vbc.exe
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\vbc.exe.config
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\vbc.rsp
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe
+I:\MVC Course\Project\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe.config
+I:\MVC Course\Project\Project_data\MVCClient\bin\Antlr3.Runtime.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\EntityFramework.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\EntityFramework.SqlServer.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.Web.Infrastructure.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\Newtonsoft.Json.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\Project_data.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Net.Http.Formatting.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.Helpers.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.Mvc.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.Optimization.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.Razor.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.WebPages.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.WebPages.Razor.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\WebGrease.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\Project_data.pdb
+I:\MVC Course\Project\Project_data\MVCClient\bin\Project_data.dll.config
+I:\MVC Course\Project\Project_data\MVCClient\bin\EntityFramework.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\EntityFramework.SqlServer.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Net.Http.Formatting.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.Helpers.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.Mvc.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.Optimization.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.Razor.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.WebPages.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.Web.WebPages.Razor.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\Newtonsoft.Json.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\Antlr3.Runtime.pdb
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\MVC Course\Project\Project_data\MVCClient\obj\Debug\MVCClient.csproj.AssemblyReference.cache
+I:\MVC Course\Project\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CoreCompileInputs.cache
+I:\MVC Course\Project\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CopyComplete
+I:\MVC Course\Project\Project_data\MVCClient\obj\Debug\MVCClient.dll
+I:\MVC Course\Project\Project_data\MVCClient\obj\Debug\MVCClient.pdb
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.dll
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.xml
+I:\MVC Course\Project\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Project_data\MVCClient\bin\MVCClient.dll.config
+D:\Project_data\MVCClient\bin\MVCClient.dll
+D:\Project_data\MVCClient\bin\MVCClient.pdb
+D:\Project_data\MVCClient\bin\roslyn\csc.exe
+D:\Project_data\MVCClient\bin\roslyn\csc.exe.config
+D:\Project_data\MVCClient\bin\roslyn\csc.rsp
+D:\Project_data\MVCClient\bin\roslyn\csi.exe
+D:\Project_data\MVCClient\bin\roslyn\csi.exe.config
+D:\Project_data\MVCClient\bin\roslyn\csi.rsp
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project_data\MVCClient\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Project_data\MVCClient\bin\roslyn\System.AppContext.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Collections.Immutable.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Console.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Globalization.Calendars.dll
+D:\Project_data\MVCClient\bin\roslyn\System.IO.Compression.dll
+D:\Project_data\MVCClient\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.dll
+D:\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Net.Http.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Net.Sockets.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Project_data\MVCClient\bin\roslyn\System.ValueTuple.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.dll
+D:\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Project_data\MVCClient\bin\roslyn\vbc.exe
+D:\Project_data\MVCClient\bin\roslyn\vbc.exe.config
+D:\Project_data\MVCClient\bin\roslyn\vbc.rsp
+D:\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe
+D:\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe.config
+D:\Project_data\MVCClient\bin\Antlr3.Runtime.dll
+D:\Project_data\MVCClient\bin\EntityFramework.dll
+D:\Project_data\MVCClient\bin\EntityFramework.SqlServer.dll
+D:\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.dll
+D:\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Project_data\MVCClient\bin\Microsoft.Web.Infrastructure.dll
+D:\Project_data\MVCClient\bin\Newtonsoft.Json.dll
+D:\Project_data\MVCClient\bin\PagedList.dll
+D:\Project_data\MVCClient\bin\PagedList.Mvc.dll
+D:\Project_data\MVCClient\bin\Project_data.dll
+D:\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Project_data\MVCClient\bin\System.Net.Http.Formatting.dll
+D:\Project_data\MVCClient\bin\System.Web.Helpers.dll
+D:\Project_data\MVCClient\bin\System.Web.Mvc.dll
+D:\Project_data\MVCClient\bin\System.Web.Optimization.dll
+D:\Project_data\MVCClient\bin\System.Web.Razor.dll
+D:\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.dll
+D:\Project_data\MVCClient\bin\System.Web.WebPages.dll
+D:\Project_data\MVCClient\bin\System.Web.WebPages.Razor.dll
+D:\Project_data\MVCClient\bin\WebGrease.dll
+D:\Project_data\MVCClient\bin\Project_data.pdb
+D:\Project_data\MVCClient\bin\Project_data.dll.config
+D:\Project_data\MVCClient\bin\EntityFramework.xml
+D:\Project_data\MVCClient\bin\EntityFramework.SqlServer.xml
+D:\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.xml
+D:\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Project_data\MVCClient\bin\PagedList.xml
+D:\Project_data\MVCClient\bin\PagedList.Mvc.xml
+D:\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Project_data\MVCClient\bin\System.Net.Http.Formatting.xml
+D:\Project_data\MVCClient\bin\System.Web.Helpers.xml
+D:\Project_data\MVCClient\bin\System.Web.Mvc.xml
+D:\Project_data\MVCClient\bin\System.Web.Optimization.xml
+D:\Project_data\MVCClient\bin\System.Web.Razor.xml
+D:\Project_data\MVCClient\bin\System.Web.WebPages.xml
+D:\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.xml
+D:\Project_data\MVCClient\bin\System.Web.WebPages.Razor.xml
+D:\Project_data\MVCClient\bin\Newtonsoft.Json.xml
+D:\Project_data\MVCClient\bin\Antlr3.Runtime.pdb
+D:\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project_data\MVCClient\obj\Debug\MVCClient.csproj.AssemblyReference.cache
+D:\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CoreCompileInputs.cache
+D:\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CopyComplete
+D:\Project_data\MVCClient\obj\Debug\MVCClient.dll
+D:\Project_data\MVCClient\obj\Debug\MVCClient.pdb
+D:\LMSproject\Project_data\MVCClient\bin\MVCClient.dll.config
+D:\LMSproject\Project_data\MVCClient\bin\MVCClient.dll
+D:\LMSproject\Project_data\MVCClient\bin\MVCClient.pdb
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\csc.exe
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\csc.exe.config
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\csc.rsp
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\csi.exe
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\csi.exe.config
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\csi.rsp
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.Managed.Core.targets
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.AppContext.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Collections.Immutable.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Console.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Globalization.Calendars.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.IO.Compression.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Net.Http.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Net.Sockets.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Reflection.Metadata.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.ValueTuple.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Xml.XmlDocument.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\vbc.exe
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\vbc.exe.config
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\vbc.rsp
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe
+D:\LMSproject\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe.config
+D:\LMSproject\Project_data\MVCClient\bin\Antlr3.Runtime.dll
+D:\LMSproject\Project_data\MVCClient\bin\EntityFramework.dll
+D:\LMSproject\Project_data\MVCClient\bin\EntityFramework.SqlServer.dll
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.dll
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.dll
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.dll
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.Web.Infrastructure.dll
+D:\LMSproject\Project_data\MVCClient\bin\Newtonsoft.Json.dll
+D:\LMSproject\Project_data\MVCClient\bin\PagedList.dll
+D:\LMSproject\Project_data\MVCClient\bin\PagedList.Mvc.dll
+D:\LMSproject\Project_data\MVCClient\bin\Project_data.dll
+D:\LMSproject\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\LMSproject\Project_data\MVCClient\bin\System.Net.Http.Formatting.dll
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.Helpers.dll
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.Mvc.dll
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.Optimization.dll
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.Razor.dll
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.dll
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.WebPages.dll
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.WebPages.Razor.dll
+D:\LMSproject\Project_data\MVCClient\bin\WebGrease.dll
+D:\LMSproject\Project_data\MVCClient\bin\Project_data.pdb
+D:\LMSproject\Project_data\MVCClient\bin\Project_data.dll.config
+D:\LMSproject\Project_data\MVCClient\bin\EntityFramework.xml
+D:\LMSproject\Project_data\MVCClient\bin\EntityFramework.SqlServer.xml
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.xml
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.xml
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.xml
+D:\LMSproject\Project_data\MVCClient\bin\PagedList.xml
+D:\LMSproject\Project_data\MVCClient\bin\PagedList.Mvc.xml
+D:\LMSproject\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\LMSproject\Project_data\MVCClient\bin\System.Net.Http.Formatting.xml
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.Helpers.xml
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.Mvc.xml
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.Optimization.xml
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.Razor.xml
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.WebPages.xml
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.xml
+D:\LMSproject\Project_data\MVCClient\bin\System.Web.WebPages.Razor.xml
+D:\LMSproject\Project_data\MVCClient\bin\Newtonsoft.Json.xml
+D:\LMSproject\Project_data\MVCClient\bin\Antlr3.Runtime.pdb
+D:\LMSproject\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LMSproject\Project_data\MVCClient\obj\Debug\MVCClient.csproj.AssemblyReference.cache
+D:\LMSproject\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CoreCompileInputs.cache
+D:\LMSproject\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CopyComplete
+D:\LMSproject\Project_data\MVCClient\obj\Debug\MVCClient.dll
+D:\LMSproject\Project_data\MVCClient\obj\Debug\MVCClient.pdb
+E:\PPT &Thesis\Project_data\MVCClient\bin\MVCClient.dll.config
+E:\PPT &Thesis\Project_data\MVCClient\bin\MVCClient.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\MVCClient.pdb
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csc.exe
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csc.exe.config
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csc.rsp
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csi.exe
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csi.exe.config
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csi.rsp
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.Managed.Core.targets
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.AppContext.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Collections.Immutable.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Console.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Globalization.Calendars.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.Compression.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Net.Http.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Net.Sockets.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Reflection.Metadata.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.ValueTuple.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.XmlDocument.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\vbc.exe
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\vbc.exe.config
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\vbc.rsp
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe
+E:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe.config
+E:\PPT &Thesis\Project_data\MVCClient\bin\Antlr3.Runtime.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.SqlServer.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.Web.Infrastructure.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\Newtonsoft.Json.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.Mvc.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\Project_data.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Net.Http.Formatting.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Helpers.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Mvc.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Optimization.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Razor.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Razor.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\WebGrease.dll
+E:\PPT &Thesis\Project_data\MVCClient\bin\Project_data.pdb
+E:\PPT &Thesis\Project_data\MVCClient\bin\Project_data.dll.config
+E:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.SqlServer.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.Mvc.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Net.Http.Formatting.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Helpers.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Mvc.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Optimization.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Razor.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Razor.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\Newtonsoft.Json.xml
+E:\PPT &Thesis\Project_data\MVCClient\bin\Antlr3.Runtime.pdb
+E:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.csproj.AssemblyReference.cache
+E:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CoreCompileInputs.cache
+E:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CopyComplete
+E:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.dll
+E:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.pdb
+J:\PPT &Thesis\Project_data\MVCClient\bin\MVCClient.dll.config
+J:\PPT &Thesis\Project_data\MVCClient\bin\MVCClient.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\MVCClient.pdb
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csc.exe
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csc.exe.config
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csc.rsp
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csi.exe
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csi.exe.config
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csi.rsp
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CSharp.Core.targets
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.Managed.Core.targets
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.Win32.Primitives.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.AppContext.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Collections.Immutable.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Console.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Globalization.Calendars.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.Compression.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.Compression.ZipFile.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Net.Http.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Net.Sockets.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Reflection.Metadata.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Threading.Tasks.Extensions.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.ValueTuple.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.ReaderWriter.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.XmlDocument.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\vbc.exe
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\vbc.exe.config
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\vbc.rsp
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe
+J:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe.config
+J:\PPT &Thesis\Project_data\MVCClient\bin\Antlr3.Runtime.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.SqlServer.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.Web.Infrastructure.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\Newtonsoft.Json.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.Mvc.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\Project_data.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Net.Http.Formatting.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Helpers.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Mvc.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Optimization.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Razor.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Razor.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\WebGrease.dll
+J:\PPT &Thesis\Project_data\MVCClient\bin\Project_data.pdb
+J:\PPT &Thesis\Project_data\MVCClient\bin\Project_data.dll.config
+J:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.SqlServer.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.Mvc.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Net.Http.Formatting.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Helpers.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Mvc.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Optimization.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Razor.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Razor.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\Newtonsoft.Json.xml
+J:\PPT &Thesis\Project_data\MVCClient\bin\Antlr3.Runtime.pdb
+J:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+J:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.csproj.AssemblyReference.cache
+J:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CoreCompileInputs.cache
+J:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CopyComplete
+J:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.dll
+J:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.pdb
+D:\PPT &Thesis\Project_data\MVCClient\bin\MVCClient.dll.config
+D:\PPT &Thesis\Project_data\MVCClient\bin\MVCClient.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\MVCClient.pdb
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csc.exe
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csc.exe.config
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csc.rsp
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csi.exe
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csi.exe.config
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\csi.rsp
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.Managed.Core.targets
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.AppContext.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Collections.Immutable.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Console.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Globalization.Calendars.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.Compression.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Net.Http.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Net.Sockets.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Reflection.Metadata.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.ValueTuple.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.XmlDocument.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\vbc.exe
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\vbc.exe.config
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\vbc.rsp
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe
+D:\PPT &Thesis\Project_data\MVCClient\bin\roslyn\VBCSCompiler.exe.config
+D:\PPT &Thesis\Project_data\MVCClient\bin\Antlr3.Runtime.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.SqlServer.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.Web.Infrastructure.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\Newtonsoft.Json.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.Mvc.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\Project_data.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\QuickMailer.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Net.Http.Formatting.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Helpers.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Mvc.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Optimization.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Razor.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Razor.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\WebGrease.dll
+D:\PPT &Thesis\Project_data\MVCClient\bin\Project_data.pdb
+D:\PPT &Thesis\Project_data\MVCClient\bin\Project_data.dll.config
+D:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\EntityFramework.SqlServer.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.Core.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Logging.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.IdentityModel.Tokens.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\PagedList.Mvc.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Net.Http.Formatting.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Helpers.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Mvc.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Optimization.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.Razor.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Deployment.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\System.Web.WebPages.Razor.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\Newtonsoft.Json.xml
+D:\PPT &Thesis\Project_data\MVCClient\bin\Antlr3.Runtime.pdb
+D:\PPT &Thesis\Project_data\MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.csproj.AssemblyReference.cache
+D:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CoreCompileInputs.cache
+D:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.csproj.CopyComplete
+D:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.dll
+D:\PPT &Thesis\Project_data\MVCClient\obj\Debug\MVCClient.pdb

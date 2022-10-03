@@ -1,0 +1,10 @@
+﻿table {
+    border-collapse: collapse;
+    background: white;
+    color: black;
+}
+
+th,
+td {
+    font-weight: bold;
+}
