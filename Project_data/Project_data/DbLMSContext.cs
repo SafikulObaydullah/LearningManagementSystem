@@ -19,7 +19,7 @@ namespace Project_data
 
     }
     public class DbLMSContext : IdentityDbContext<ApplicationUser>
-    {
+    {//dbLMS
         public DbLMSContext() : base("dbLMS")
         {
             var ensureDLLIsCopied =
@@ -61,6 +61,7 @@ namespace Project_data
         public DbSet<StudentsAcademy> StudentsAcademy { get; set; }
         public DbSet<InstituteInfo> InstituteInfos { get; set; }
         public DbSet<InstituteType> InstituteType { get; set; }
+        public DbSet<TblQcTransactionHeader> tblQcTransactionHeaders { get; set; }
     }
     //public class AcademicSession
     //{
@@ -327,5 +328,32 @@ namespace Project_data
       public InstituteInfo InstituteInfo { get; set; }
       public ICollection<SubmittedHomework> SubmittedHomeworks { get; set; }
 
+   }
+   public partial class TblQcTransactionHeader
+   {
+      public long IntQcTransactionHeaderId { get; set; }
+      public string StrQcTransactionCode { get; set; }
+      public DateTime DteTransactionDate { get; set; }
+      public TimeSpan? TmStartTime { get; set; }
+      public TimeSpan? TmEndTime { get; set; }
+      public long IntShiftId { get; set; }
+      public string StrShiftName { get; set; }
+      public long IntMachineId { get; set; }
+      public string StrMachineName { get; set; }
+      public long IntItemId { get; set; }
+      public string StrItemName { get; set; }
+      public long IntBusinessUnitId { get; set; }
+      public long IntSbuId { get; set; }
+      public long IntPlantId { get; set; }
+      public long IntEmployeeId { get; set; }
+      public string StrComments { get; set; }
+      public bool IsActive { get; set; }
+      public long? IntCreatedby { get; set; }
+      public DateTime? DteCreatedAt { get; set; }
+      public long? IntUpdatedby { get; set; }
+      public DateTime? DteUpdatedAt { get; set; }
+      public long? IntDurationInMinute1 { get; set; }
+      public long? IntDurationInMinute2 { get; set; }
+      public string StrQcTestType { get; set; }
    }
 }
